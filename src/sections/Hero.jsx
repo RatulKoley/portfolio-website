@@ -4,6 +4,7 @@ import Button from "../components/Button";
 import SocialLinks from "../components/SocialLinks";
 import { ArrowDown, ArrowUpRight, Download, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
+import headshot from "../assets/headshot.png";
 
 const Hero = () => {
   return (
@@ -27,8 +28,8 @@ const Hero = () => {
           <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.55, delay: 0.12 }} className="relative mx-auto w-full max-w-70 lg:max-w-none">
             <div className="aspect-square rounded-2xl border border-line bg-panel p-3 shadow-2xl shadow-black/30">
               <div className="relative grid size-full place-items-center overflow-hidden rounded-xl border border-white/[0.06] bg-[#101010]">
+                <img src={headshot} alt={portfolio.name} className="size-full object-cover object-center" />
                 <div className="absolute inset-0 bg-[linear-gradient(135deg,transparent_0%,rgba(37,99,235,0.13)_100%)]" />
-                <div className="relative grid size-32 place-items-center rounded-full border border-blue-300/20 bg-blue-500/10 text-4xl font-semibold tracking-tight text-blue-200">{portfolio.initials}</div>
                 <span className="absolute bottom-5 left-5 rounded-md border border-line bg-ink px-2.5 py-1.5 text-xs text-zinc-400">{portfolio.location}</span>
               </div>
             </div>

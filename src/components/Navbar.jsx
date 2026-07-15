@@ -15,7 +15,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 border-b border-white/[0.06] bg-ink/90 backdrop-blur-xl">
       <Container className="flex h-17 items-center justify-between">
         <a href="#home" aria-label={`${portfolio.name} home`} className="flex items-center gap-3" onClick={closeMenu}>
-          <span className="grid size-8 place-items-center rounded-md border border-blue-400/30 bg-blue-500/10 text-xs font-bold tracking-wide text-blue-300">{portfolio.initials}</span>
+          {/* <span className="grid size-8 place-items-center rounded-md border border-blue-400/30 bg-blue-500/10 text-xs font-bold tracking-wide text-blue-300">{portfolio.initials}</span> */}
           <span className="text-sm font-semibold tracking-tight text-white">{portfolio.name}</span>
         </a>
 
