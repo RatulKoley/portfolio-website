@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ratulkoley.dpdns.org/sitemap.xml

@@ -4,7 +4,7 @@ import Button from "../components/Button";
 import SocialLinks from "../components/SocialLinks";
 import { ArrowDown, ArrowUpRight, Download, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
-import headshot from "../assets/headshot.png";
+import headshot from "../assets/headshot.webp";
 
 const Hero = () => {
   return (
