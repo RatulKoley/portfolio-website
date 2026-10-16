@@ -13,6 +13,8 @@ export const portfolio = {
   github: "",
   linkedin: "",
   website: "https://ratulkoley.dpdns.org",
+  siteUrl: "https://ratulkoley.dpdns.org",
+  metaTitle: "Ratul Koley - Full Stack Developer & Team Lead",
   availability: "Available after a 30-day notice period",
   metaDescription:
     "Ratul Koley is a Full Stack Developer and Team Lead building secure, scalable enterprise applications with .NET, React, Node.js, and Azure.",
@@ -22,6 +24,7 @@ export const portfolio = {
     { label: "Experience", href: "#experience" },
     { label: "Skills", href: "#skills" },
     { label: "Projects", href: "#projects" },
+    { label: "Shop", href: "/shop" },
     { label: "Education", href: "#education" },
     { label: "Contact", href: "#contact" },
   ],

@@ -1,4 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import { portfolio } from "../data/portfolio";
 import Container from "./Container";
 import SocialLinks from "./SocialLinks";
@@ -8,7 +9,7 @@ const Footer = () => (
     <Container className="flex flex-col gap-6 py-8 sm:flex-row sm:items-center sm:justify-between">
       <div>
         <p className="text-sm font-medium text-white">© {new Date().getFullYear()} {portfolio.name}</p>
-        <p className="mt-1 text-sm text-zinc-500">Full Stack Developer & Team Lead</p>
+        <p className="mt-1 text-sm text-zinc-500">Full Stack Developer & Team Lead · <Link to="/shop" className="text-zinc-400 hover:text-white">Shop digital assets</Link></p>
       </div>
       <div className="flex items-center gap-3">
         <SocialLinks />

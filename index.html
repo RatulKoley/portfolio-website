@@ -12,6 +12,17 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- Hidden static copy so Netlify's build bot registers the form.
+         The React form in PaymentTabs.jsx posts with the same name/fields. -->
+    <form name="order-verification" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="utr" />
+      <textarea name="notes"></textarea>
+      <input type="text" name="product" />
+      <input type="text" name="amount" />
+      <input type="text" name="method" />
+    </form>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
